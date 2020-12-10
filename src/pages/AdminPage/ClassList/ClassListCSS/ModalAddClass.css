@@ -1,0 +1,11 @@
+@media (max-width : 576px ){
+    .modal.mt-4{
+        top: 5%;
+        margin-left: 8%;
+    }
+}
+
+.modalClass {
+    max-width: 80% !important;
+}
+

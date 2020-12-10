@@ -1,0 +1,12 @@
+@media (min-width : 600px){
+    .adminPage {
+        margin-left: 72px;
+        margin-top: 72px ;
+        margin-right : 8px;
+    }
+}
+@media (max-width : 600px){
+    .adminPage {
+        margin-top: 72px ;
+    }
+}

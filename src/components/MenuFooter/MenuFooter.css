@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: #34495e;
+}
+.container-fluid.top{
+    padding-bottom: 2%;
+}
+.col-lg-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid.top .col-lg-3 h3 {
+    margin-top: 7%;
+    color: #51A9D1;
+}
+.container-fluid.top .col-lg-3 div p,.small,.link {
+    color: white;
+}
+.col-lg-3 i {
+    font-size: 2em;
+    margin: 15px 10px 15px 10px;
+    color: #51A9D1;
+}
+
+.col-lg-3.offset-lg-1 {
+    margin-top: 1%;
+    text-align: end;
+}
+

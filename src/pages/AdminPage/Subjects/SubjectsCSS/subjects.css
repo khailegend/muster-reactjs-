@@ -1,0 +1,72 @@
+.subject {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+
+}
+
+.cardSubject {
+    width: 25%;
+    height: 55%;
+    margin-top: -5%;
+    margin-left: 2%;
+}
+@media all and (min-width : 1125px){
+    .cardSubject {
+        width: 4.5em;
+        height: 55%;
+        margin-top: -5%;
+        margin-left: 2%;
+    }
+    .btnDelete {
+        left : 60% 
+    }
+}
+
+@media (max-width : 1125px) and (min-width : 960px){
+    .cardSubject {
+        width: 4.5em;
+        height: 55%;
+        margin-top: -5%;
+        margin-left: 2%;
+    }
+    .btnDelete {
+        left : 46% 
+    }
+}
+
+@media (max-width : 960px) and (min-width : 770px){
+    .cardSubject {
+        width: 4.5em;
+        height: 55%;
+        margin-top: -3%;
+        margin-left: 2%;
+    }
+    .btnDelete {
+        left : 65% 
+    }
+} 
+
+@media (max-width : 770px) and (min-width : 600px){
+    .cardSubject {
+        width: 4.5em;
+        height: 55%;
+        margin-top: -3%;
+        margin-left: 2%;
+    }
+    .btnDelete {
+        left : 55% 
+    }
+} 
+
+@media all and (max-width : 600px) {
+    .cardSubject {
+        width: 4.5em;
+        height: 55%;
+        margin-top: -2%;
+        margin-left: 1%;
+    }
+    .btnDelete {
+        left : 70% 
+    }
+} 

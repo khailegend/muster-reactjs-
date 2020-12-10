@@ -1,0 +1,12 @@
+@media (min-width : 576px){
+    .filter {
+        margin-right: 67% ;
+    }
+}
+
+@media (max-width : 576px){
+    .filter {
+        margin-right: 2% ;
+        margin-left: 2%;
+    }
+}

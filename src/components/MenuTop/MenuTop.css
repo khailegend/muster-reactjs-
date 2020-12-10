@@ -1,0 +1,164 @@
+
+nav{
+    height: 5em;
+    width: 100%;
+    background: #34495e;
+    z-index: 9999;
+    position: relative;
+    
+}
+
+.fixel {
+    position: fixed;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+    text-align: center center;
+    margin-bottom: -10px;
+}
+
+
+#logo img {
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    
+}
+nav li {
+    display:inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav ul li .link {
+    text-decoration: none;
+    color: white;
+    font-size:  18px;
+    text-transform: uppercase;
+    border:  1px solid transparent;
+    padding:  7px 10px;
+    border-radius: 3px;
+}
+
+li Link .link{
+    text-decoration: none;
+}
+
+
+.link.active,.link:hover {
+    border: 1px solid white;
+    transition: .5s;
+}
+
+nav #icon{
+     color: white;
+     font-size: 2em;
+     line-height: 80px;
+     float: right;
+     margin-right: 5%;
+     cursor: pointer;
+     display: none;
+     
+}
+@media all and (min-width: 760px){
+    #logo{
+        margin-top: 1%;
+        width: 25%;
+        margin-left: 2%;
+        position: fixed;
+    }
+    nav ul{
+        margin-right: 20px;
+
+    }
+    nav .link{
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 850px ) and (min-width : 360px){
+    #logo{
+        margin-top: 2%;
+        width: 50%;
+        margin-left: 2%;
+        position: fixed;
+    }
+    nav #icon{
+        display: block;
+    }
+    nav ul {
+        z-index: auto;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #2f3640;
+        top:80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s ;
+    }
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav .link {
+        font-size: 20px;
+    }
+    .link:hover,.link.active{
+        border: none;
+        color: #3498db
+    }
+    nav ul.show{
+        left: 0;
+        
+    }
+}
+@media all and (max-width: 359px){
+    #logo{
+        margin-top: 4%;
+        width: 50%;
+        margin-left: 2%;
+        position: fixed;
+    }
+    nav #icon{
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #2f3640;
+        top:80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s ;
+    }
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav .link {
+        font-size: 20px;
+    }
+    .link:hover,.link.active{
+        border: none;
+        color: #3498db
+    }
+    nav ul.show{
+        left: 0;
+        z-index: auto
+    }
+    label img {
+        width: 250%;
+    }
+
+    
+}
